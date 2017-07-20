@@ -10,7 +10,7 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
   </welcome-file-list>
   <servlet>
     <servlet-name>SMSInfoNewServlet</servlet-name>
-    <servlet-class>mac.SMSSendControllerServlet</servlet-class>
+    <servlet-class>com.SMSSendControllerServlet</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>SMSInfoNewServlet</servlet-name>
@@ -21,7 +21,7 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
     <description></description>
     <display-name>SMSLoginServlet</display-name>
     <servlet-name>SMSLoginServlet</servlet-name>
-    <servlet-class>mac.LoginServlet</servlet-class>
+    <servlet-class>com.LoginServlet</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>SMSLoginServlet</servlet-name>
